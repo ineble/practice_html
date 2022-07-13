@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            padding : 0;
+            margin: 0;
+        }
+        header h2{
+            color : white;
+            flex : 1;
+            
+        }
+        .main{
+            border : 3px solid black;
+            padding-bottom: 0px;
+        }
+    
+        header ul{
+            display: flex;
+            flex: 1;
+            list-style: none;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding : 0;
+            
+            
+        }
+        header ul li {
+            border: 1px solid red;
+        }
+        header ul li:hover{
+            background-color: red;
+            display: block;
+        }
+        header{
+            display : flex;
+            background-color : skyblue;
+            width : auto;
+            align-items: center;
+            padding : 0 5px;
+            
+        }
+        h3{
+            font-weight: bolder;
+        }
+        .card .sub_title{
+            color: blueviolet;
+            text-indent: 0;
+            
+        }
+        .card div{
+            text-indent: 30px;
+        }
+        .add_padding{
+            padding : 0px 0px 30px 10px
+        }
+        .add_margin{
+            margin: 20px 10px;
+        }
+        .black{
+            border : 3px solid black;
+            border-radius: 10px;
+        }
+        .skyblue{
+            border : 3px dotted skyblue;
+            border-radius: 10px;
+        }
+        .green{
+            border : 3px double green;
+            border-radius: 10px;
+        }
+        footer{
+            position : absolute;
+            display: flex;
+            
+            bottom : 0px;
+            height: 60px;
+            background-color: black;
+            color :white;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div>
+        <header>
+        <h2>애완견 종류</h2>
+        <ul>
+            <li>애완견 종류</li>
+            <li>입양하기</li>
+            <li>건강돌보기</li>
+            <li>더불어살기</li>
+        </ul>
+        </header>
+        <div class="main">
+        <div class="black add_padding add_margin">
+            <h3>활당한 강아지</h3>
+            <div class="card">
+                <div class="sub_title">요크셔테리어</div>
+                <div>활당한 성질</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">말티즈</div>
+                <div>애정이 많음</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">포메 라이언</div>
+                <div>활기참</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">골든 리트리버</div>
+                <div>충성심</div>
+            </div>
+        </div>
+        <div class="skyblue add_padding add_margin">
+            <h3>활당한 강아지</h3>
+            <div class="card">
+                <div class="sub_title">요크셔테리어</div>
+                <div>활당한 성질</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">말티즈</div>
+                <div>애정이 많음</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">포메 라이언</div>
+                <div>활기참</div>
+            </div>
+            
+        </div>
+        <div class="green add_padding add_margin">
+            <h3>활당한 강아지</h3>
+            <div class="card">
+                <div class="sub_title">요크셔테리어</div>
+                <div>활당한 성질</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">말티즈</div>
+                <div>애정이 많음</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">포메 라이언</div>
+                <div>활기참</div>
+            </div>
+            <div class="card">
+                <div class="sub_title">골든 리트리버</div>
+                <div>충성심</div>
+            </div>
+        </div>
+    </div>
+        <footer>
+            CopyRight
+        </footer>
+    </div>
+</body>
+</html>

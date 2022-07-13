@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            padding : 0px;
+            margin : 0px;
+        }
+        header{
+            background-color: cornflowerblue;
+            display: flex;
+            align-items: center;
+            padding : 0 5px;
+            border : 3px solid black;
+            
+        }
+        header div{
+            flex : 1;
+            font-size: 1.5em;
+            color:white;
+        }
+        header ul{
+            display: flex;
+            flex : 1;
+            color:white;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+            padding : 0;
+        }
+        .main{
+            border : 3px solid black;
+            padding : 10px;
+            padding-bottom : 100px;
+        }
+        .add_padding{
+            padding : 0px 0px 30px 10px;
+        }
+        .add_margin{
+            margin: 20px 10px;
+        }
+        h4{
+            color : black;
+            padding : 0px 10px;
+        }
+        .card .sub_title{
+            text-indent: 0px;
+            color : purple;
+        }
+        .black{
+            border : 2px solid black;
+            border-radius: 10px;
+        }
+        .skyblue{
+            border : 2px dotted skyblue;
+            border-radius: 10px;
+        }
+        .green{
+            border : 2px double green;
+            border-radius: 10px;
+        }
+        .card div{
+            text-indent: 30px;
+        }
+        footer{
+            width: 100%;
+            height : 100px;
+            position: absolute;
+            display: flex;
+            background-color: black;
+            color :white;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            bottom : 0px;
+
+        }
+       .sub_title{
+        padding-left: 10px;
+       }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <div>애완견 종류</div>
+            <ul>
+                <li>애완견 종류</li>
+                <li>입양하기</li>
+                <li>건강돌보기</li>
+                <li>더불어살기</li>
+            </ul>
+        </header>
+        <div class="main">
+            <div class="black add_padding, add_margin">
+                <h4>활당한 강아지</h4>
+                    <div class="card">
+                        <div class="sub_title">요크셔테리어</div>
+                        <div>활달한 성성질</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">말티즈</div>
+                        <div>애정이 많음</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">포메 라이언</div>
+                        <div>활기참</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">콜든 리트리버</div>
+                        <div>충성심</div>
+                    </div>            
+            </div>
+            <div class="skyblue add_padding, add_margin">
+                <h4>온순한 강아지</h4>
+                    <div class="card">
+                        <div class="sub_title">쉬즈</div>
+                        <div>온순함</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">퍼그</div>
+                        <div>사려 깊음</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">레브라도</div>
+                        <div>침착함</div>
+                    </div>      
+            </div>
+            <div class="green add_padding, add_margin">
+                <h4>사납지만 강아지</h4>
+                    <div class="card">
+                        <div class="sub_title">미니어퍼핀서</div>
+                        <div>경계심 강함</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">푸들</div>
+                        <div>복종적</div>
+                    </div>
+                    <div class="card">
+                        <div class="sub_title">폭스 테리어</div>
+                        <div>가정에서 키우기 적합</div>
+                    </div>
+           
+            </div>
+        </div>
+        <footer>
+            CopyRight
+        </footer>
+    </div>
+    
+</body>
+</html>
